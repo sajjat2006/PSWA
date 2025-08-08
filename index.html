@@ -6,11 +6,16 @@
     <title>Painshail Student Welfare Association</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
+        <div class="togle-btn">
+            <button id="english" class="m-btn active">en</button>
+            <button id="bangla" class="m-btn ">bn</button>
+        </div>
         <img src="logo.png" alt="Painshail Logo" id="logo">
-        <h1>Painshail Student Welfare Association</h1>
+        <h1 >Painshail Student Welfare Association</h1>
     </header>
 
     <div class="slide-bar">        
@@ -102,17 +107,41 @@
                     </div>
                 </div>
         </section>
-
-
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <p>Email: info@painshail-association.org</p>
-            <p>Phone: +8801300-637250</p>
-        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Painshail Student Welfare Association. All rights reserved.</p>
+        <section id="foot" class="foot">
+
+            <div id="info" class="info">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">Rules & Regulations</a></li>
+                    <li><a href="#">Blood Donors</a></li>
+                    <li><a href="#">Members & Administration</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+
+            </div>
+
+            <div id="contact-info" class="contact-info">
+                <div id="contact" class="contact">
+                <h3>Contact info</h3>
+                <p>Email: info@painshail-association.org</p>
+                <p>Phone: +8801300-637250</p>
+            </div>
+
+            <div class="social-links">
+                <div class="social-box">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="telegram"><i class="fab fa-telegram-plane"></i></a>    
+                </div>            
+            </div>            
+
+        </section>
+        <p id="footer">&copy; 2025 Painshail Student Welfare Association.<br>
+             All rights reserved.</p>
     </footer>
 </body>
 </html>
